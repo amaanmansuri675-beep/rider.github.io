@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Riddle 6</title>
+<style>body{text-align:center;font-family:Arial;background:#eef;} .box{background:white;padding:30px;margin:40px auto;max-width:500px;border-radius:10px;}</style>
+
+<script>
+function check(){
+let ans=document.getElementById("ans").value.toLowerCase();
+if(ans==="map") window.location="riddle7.html";
+else alert("Wrong answer!");
+}
+</script>
+</head>
+
+<body>
+<div class="box">
+<h2>Riddle 6</h2>
+<p>I have cities but no houses. What am I?</p>
+<input id="ans"><br>
+<button onclick="check()">Submit</button>
+</div>
+</body>
+</html>
